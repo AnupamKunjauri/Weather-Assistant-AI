@@ -3,7 +3,7 @@ import plotly.graph_objects as go
 from datetime import datetime
 
 # =================================================
-# 🌡️ TEMPERATURE CHART
+# 🌡️ TEMPERATURE CHART 
 # - Gradient markers
 # - Max / Min markers
 # - Smooth curve
@@ -163,3 +163,4 @@ def humidity_chart(hourly):
     )
 
     return fig
+
